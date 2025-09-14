@@ -62,9 +62,24 @@ Public and Community Transport: Council Community Transport and planning that su
 Based on a conceptual model they developed, they found that the spatial accessibility of social infrastructure positively impacts the health and wellbeing of residents.
 
 ## Description of our objectives
-In the context of healthy urban planning, having accurate geographical data and accessibility metrics is essential for making informed decisions to provide all citizens with adequate access to amenities that enrich their life and improve their well-being. Thus, the objective of our project is to build a tool that assists users to visualise and better understand the distribution and the availability of services contributing to public health in the French territory. Users can range from private individuals, to authorities and policy makers. The latter can use this visualisation tool as guidance to improve their understanding of the level of accessibility in a given area and tailor their policies and decisions accordingly.
-The first key feature of the tool is its ability to integrate geographical coordinates across France, including both metropolitan and overseas regions. By ensuring comprehensive geographic coverage, the tool will facilitate the collection and organization of spatial data, allowing for a detailed representation of locations across diverse regions. This allows users to work with location-based data regardless of the area they are visualising within France.
-The second feature focuses on computing accessibility measures for various amenities relevant to healthy urban planning. The tool evaluates the availability of essential services such as healthcare facilities, grocery stores, train stations, or cultural centers. By quantifying accessibility, it helps identify gaps in service coverage and supports efforts to enhance equitable access to key resources. This feature is particularly valuable for urban developers and policymakers aiming to design cities or territories that promote well-being for all residents.
+- **Objective in context of healthy urban planning**  
+  - Accurate geographical data and accessibility metrics are essential for informed decisions.  
+  - Goal: build a tool to help users visualise and understand distribution and availability of services contributing to public health in France.  
+  - Users: private individuals, authorities, and policymakers.  
+  - Policymakers can use the tool to assess accessibility levels and tailor policies accordingly.  
+
+- **Key Feature 1: Comprehensive geographical integration**  
+  - Incorporates geographical coordinates across France (metropolitan and overseas).  
+  - Ensures wide geographic coverage for spatial data collection and organization.  
+  - Provides detailed representation of locations across diverse regions.  
+  - Allows users to work with location-based data anywhere in France.  
+
+- **Key Feature 2: Accessibility measures for amenities**  
+  - Computes accessibility to essential services (e.g., healthcare, grocery stores, train stations, cultural centers).  
+  - Quantifies accessibility to highlight gaps in service coverage.  
+  - Supports equitable access to resources.  
+  - Helps urban developers and policymakers design healthier, well-being-focused environments.  
+
 
 ## Data description and exploration 
 
