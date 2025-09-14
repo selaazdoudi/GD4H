@@ -176,7 +176,7 @@ We structured the data import process in a way that makes it user-friendly. The 
 To increase flexibility further, fuzzy recognition functions were implemented to automatically identify latitude and longitude columns, no matter how they were spelled in the provided dataset. Since different datasets may use varying column names for the same type of information (e.g., "latitude" vs. "lat"), fuzzy matching techniques are applied to determine the best match: column names in the dataset are compared against a list of expected column names, using a similarity score to assess the likelihood of a match. The function iterates through the provided column options and selects the one with the highest similarity score, ensuring that minor differences in spelling do not prevent correct identification. If no strong match is found, it falls back on a default column name. If no suitable match is found, the function asks the user to manually verify the dataset to prevent errors. Once latitude and longitude columns as well as location names and categorical labels are identified, the function standardizes these column names by renaming them to a uniform format ("latitude," "longitude," "location," and "category"). This way, different data sources can be provided to the tool without requiring users to manually adjust column names. Additionally, it constructs a "geometry" column by converting the latitude and longitude coordinates into geometric points. 
 Overall, user intervention is minimal in this part of the process, ensuring a fast and optimized data preparation on which to build the rest of the workflow.
 
-![Illustration 1](images/images/Flux de travail d'importation de données.png)
+![Illustration 1](images/images/images/Flux de travail d'importation de données.png)
 
 ### Building isochrones
 
@@ -276,9 +276,6 @@ References:
 -	Zhao, P., Li, S., & Liu, D. (2020). Unequable spatial accessibility to hospitals in developing megacities: New evidence from Beijing. Health & Place, 65, 102406. https://doi.org/10.1016/j.healthplace.2020.102406
 -	Liu, L., Lyu, H., Zhao, Y., Zhou, D. (2022). An Improved Two-Step Floating Catchment Area (2SFCA) Method for Measuring Spatial Accessibility to Elderly Care Facilities in Xi’an, China. Int. J. Environ. Res. Public Health 2022, 19, 11465. https://doi.org/10.3390/ijerph191811465
 -	Luo, W., & Wang, F. (2003). Measures of spatial accessibility to health care in a GIS environment: Synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6), 865–884. https://doi.org/10.1068/b29120
-
-<img width="451" height="694" alt="image" src="https://github.com/user-attachments/assets/a9b4b16a-a0d0-4280-969e-92f651d44c9b" />
-
 
 ### Breaking France into regions
 To overcome limitations related to memory, processing time, and computational efficiency, a preprocessing step was implemented to spatially classify each carreau by region. This step was essential for successfully computing the isochrones and accessibility scores across France.
