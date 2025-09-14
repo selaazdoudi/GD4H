@@ -164,7 +164,7 @@ Under the supervision of : Pierre Boyer (Ecole Polytechnique, CREST) & Franck Ma
     - Martinique.  
 
 ![Carreau Screenshot](images/images/carreau.png)
-
+*Example of a gridded map at 1 km (the hatching indicates imputed cells)*
 
 ## Methodology:
 
