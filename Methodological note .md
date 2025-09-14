@@ -163,6 +163,8 @@ Under the supervision of : Pierre Boyer (Ecole Polytechnique, CREST) & Franck Ma
     - La Réunion.  
     - Martinique.  
 
+![Carreau Screenshot](images/carreau.png)
+
 
 ## Methodology:
 
