@@ -42,24 +42,55 @@ Under the supervision of : Pierre Boyer (Ecole Polytechnique, CREST) & Franck Ma
 ---
 
 # Literature review on healthy urban planning
-The accessibility score we will construct needs to capture the availability of services which pertain to healthy urban planning. Thus, we decided to conduct a literature review to understand what the determinants of health are, how much each of them contributes to population health, and which ones have been incorporated in already existing attempts at building indices on accessibility and urban health. This will help to shed light on the relevant indicators or amenities to include in the construction of our score.
-Acknowledging that policies must be based on an understanding of the determinants of health, Dahlgren and Whitehead created in 1991 a model of these determinants. The “Dahlgren and Whitehead model” of the main determinants of population health became over the last 30 years the most widely used model of its kind. The authors thought of these determinants as a series of four layers. The one which is most of interest for us is the second layer: these are the living and working conditions of people, determined by multiple sectors such as education, healthcare, employment or food production. Each of these “four layers of influence” translate into different levels of policy intervention, and the second layer corresponds to policies which aim to improve living and working conditions by targeting one or more sectors. For instance, this includes providing health care services, and employment policies. It focuses on improving the material and social conditions on which people’s livelihood and work are based.
-According to a report by the LA County department of public health from 2013, a population’s health is influenced 20% by clinical health care (access to care and quality of care), and 40% by social and economic factors (such as education, employment and community safety).
-Indices or indicators for accessibility to essential services linked to health and well-being have been developed in studies over the years. One of those indices is the “Urban Liveability Index” created by Higgs et al (2019). In their paper, the authors defined urban liveability as communities that are “safe, attractive, socially cohesive and inclusive, and environmentally sustainable; with affordable and diverse housing linked by convenient public transport, walking and cycling infrastructure to employment, education, public open space, local shops, health and community services, and leisure and cultural opportunities”. Thus, they identified 6 liveability domains: transport, social infrastructure, employment, walkability, housing and green infrastructure. Within transport, they included more specifically train stations, tram stops and bus stops. Within social infrastructure, they included amenities related to education (state primary schools and state secondary schools), to sport and recreation (sport center and swimming pools), to culture and leisure (cinemas, theatres, libraries), childcare centres, community centres, and health and social services (aged care, community health centres, dentists, GP clinics, maternal child health centres and pharmacies).
-Regarding the more specific domain of social infrastructure, it is defined by Davern et al (2017) as “life-long social service needs related to health, education, early childhood, community support, community development, culture, sport and recreation, parks and emergency services”. The authors provided the following list of services comprised in this domain:
-Health Services: Hospitals, General Practitioners, Mental Health Services, Community Health Centres, Maternal and Child Health Centres, and Aged Care Facilities.
-Education Services: Lifelong learning including Kindergartens, Playgroups, Primary and Secondary Schools, Universities, Vocational and Technical Tertiary Education, University of the 3rd Age, Libraries.
-Childcare: Long Day Care, Occasional Care, and Out of Hours School Care.
-Community Support Agencies: Community Support Organisations and Centrelink.
-Arts and Culture: Movie theatres, art galleries, museums, and community art centres.
-Formal Sport and Recreation: Pools, gyms, indoor and outdoor facilities.
-Public Open Space: Parks and Playgrounds.
-Community Development: Community Centres, Neighbourhood Houses, Senior Citizens Centres, Youth Services, Home & Community Care.
-Social Housing: Public housing, transitional housing, and housing diversity to meet the needs of varied demographic profiles.
-Employment
-Legal and Emergency Services: Fire, Police, Ambulance, and Judicial Services.
-Public and Community Transport: Council Community Transport and planning that supports walking and cycling.
-Based on a conceptual model they developed, they found that the spatial accessibility of social infrastructure positively impacts the health and wellbeing of residents.
+- **Accessibility score objective**  
+  - Needs to capture the availability of services related to healthy urban planning.  
+  - A literature review was conducted to:  
+    - Understand the determinants of health.  
+    - Assess how much each determinant contributes to population health.  
+    - Examine which determinants are already included in existing accessibility/urban health indices.  
+  - Goal: identify relevant indicators or amenities to include in the score.  
+
+- **Dahlgren and Whitehead model (1991)**  
+  - Widely used model of the determinants of population health.  
+  - Consists of four layers of influence.  
+  - Most relevant layer: **living and working conditions**, determined by sectors such as education, healthcare, employment, food production.  
+  - Each layer corresponds to different levels of policy intervention.  
+  - The second layer focuses on improving material and social conditions (e.g., health care services, employment policies).  
+
+- **Contribution of determinants (LA County Department of Public Health, 2013)**  
+  - Clinical health care: **20%** (access to and quality of care).  
+  - Social and economic factors: **40%** (education, employment, community safety).  
+
+- **Urban Liveability Index (Higgs et al., 2019)**  
+  - Defines liveable communities as safe, attractive, socially cohesive, inclusive, environmentally sustainable.  
+  - Features: affordable and diverse housing, linked by public transport, walking/cycling infrastructure to employment, education, shops, health/community services, leisure, culture.  
+  - Identified **6 liveability domains**:  
+    - Transport (train stations, tram stops, bus stops).  
+    - Social infrastructure (education, sports, culture/leisure, childcare, community centres, health services).  
+    - Employment.  
+    - Walkability.  
+    - Housing.  
+    - Green infrastructure.  
+
+- **Social infrastructure (Davern et al., 2017)**  
+  - Defined as “life-long social service needs related to health, education, early childhood, community support, community development, culture, sport and recreation, parks and emergency services.”  
+  - Categories and services include:  
+    - **Health Services**: Hospitals, GPs, Mental Health Services, Community Health Centres, Maternal/Child Health Centres, Aged Care.  
+    - **Education Services**: Kindergartens, Playgroups, Schools, Universities, Vocational Training, Libraries, University of the 3rd Age.  
+    - **Childcare**: Long Day Care, Occasional Care, Out-of-Hours School Care.  
+    - **Community Support Agencies**: Community Organisations, Centrelink.  
+    - **Arts & Culture**: Theatres, Galleries, Museums, Community Art Centres.  
+    - **Formal Sport & Recreation**: Pools, Gyms, Indoor/Outdoor Facilities.  
+    - **Public Open Space**: Parks, Playgrounds.  
+    - **Community Development**: Community Centres, Neighbourhood Houses, Senior Centres, Youth Services, Home & Community Care.  
+    - **Social Housing**: Public housing, transitional housing, diverse housing options.  
+    - **Employment**.  
+    - **Legal & Emergency Services**: Fire, Police, Ambulance, Judicial Services.  
+    - **Public & Community Transport**: Council Community Transport, walkability/cycling-friendly planning.  
+
+- **Key finding**  
+  - Spatial accessibility of social infrastructure has a **positive impact on health and wellbeing** of residents.  
+
 
 ## Description of our objectives
 - **Tool objective**  
