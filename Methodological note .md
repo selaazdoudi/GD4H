@@ -166,6 +166,8 @@ Under the supervision of : Pierre Boyer (Ecole Polytechnique, CREST) & Franck Ma
 ![Carreau Screenshot](images/images/carreau.png)
 *Example of a gridded map at 1 km (the hatching indicates imputed cells)*
 
+  - 🔗 [Carreau data documentation] https://www.insee.fr/fr/statistiques/4176290?sommaire=4176305
+
 ## Methodology:
 
 ### Script that allows users to input their own data
