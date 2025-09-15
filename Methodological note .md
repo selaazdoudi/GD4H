@@ -310,7 +310,7 @@ This scales our solution by providing an aggregate summary of the data that main
 #### User interaction and features of the web application
 The app allows the user to select a region and load the data of this region. Using the unit weights as default, the user can also select the travel mode and isochrone range (5, 10  and 15 minutes), to display the relevant layers of this score. In addition, users can also select the density-based scoring and display this information. 
 
-![Complete_workflow](images/images/complete_workflow.png)
+![Complete_workflow](images/images/complete_workflow.jpeg)
 
 ## F. Limitations and areas for improvement
 ### Allowing for the user to adjust the weights of the amenities 
